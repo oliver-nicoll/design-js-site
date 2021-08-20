@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: aliceblue;
+    height: 100vh;
+    background-image: url('https://i.ibb.co/HNvHSyV/image-header.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.logo {
+    height: 125px;
+    background-color: whitesmoke;
+    border-radius: 75px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menu__nav {
+    display: flex;
+    font-size: 20px;
+    color:white;
+    align-items: center;
+}
+
+.menu__nav span {
+    margin-right: 30px;
+}
+
+.contact {
+    background-color: whitesmoke;
+    color: black;
+    padding: 4px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+.contact:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    flex-grow: 1;
+    font-weight: bold;
+    color: white;
+}
+
+/* .main__text {
+    margin-top: 145px;
+} */
+
+.arrow {
+    margin-top: 30px;
+}
